@@ -86,7 +86,7 @@ services:
       service: proxy
 
   nitro:
-    image: eyqs/plume-arbhi
+    image: eyqs/plume-arbinfo
     ports:
       - "127.0.0.1:8449:8449"
     volumes:
